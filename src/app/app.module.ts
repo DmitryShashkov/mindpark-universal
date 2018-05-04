@@ -22,8 +22,7 @@ import {AboutUsComponent} from "./about-us/about-us.component";
             { path: '', component: HomeComponent, pathMatch: 'full' },
             { path: 'about-us', component: AboutUsComponent },
             { path: 'services', loadChildren: './services/services.module#ServicesModule' },
-            // { path: 'about', component: AboutComponent },
-            // { path: 'why-choose', component: WhyChooseComponent },
+            { path: 'technologies', loadChildren: './technologies/technologies.module#TechnologiesModule' }
         ]),
         // TransferHttpCacheModule,
     ],
