@@ -17,7 +17,7 @@
 </section>
 <section class="aboutClient">
     <div class="wrapper">
-        <img src="/assets/images/icon/s_people.svg" alt="">
+        <img [src]="deployURL + '/assets/images/icon/s_people.svg'" alt="">
         <h2>About the Client</h2>
         <p>Ernst &amp; Young is the worlds leading provider of audit services and one of largest professional services companies in 2014. The company's staff accounts for about 190 000 employees around 150 countries in the world.</p>
     </div>
@@ -37,31 +37,31 @@
             <div class="col-8-ls col-8-ms col-8-ss container">
                 <div class="row">
                     <div class="col-2-ls col-2-ms col-2-ss col-6-xs vc-container block">
-                        <img class="vc-block" src="/assets/images/tech-grey/android.svg" alt="">
+                        <img class="vc-block" [src]="deployURL + '/assets/images/tech-grey/android.svg'" alt="">
                     </div>
                     <div class="col-2-ls col-2-ms col-2-ss col-6-xs vc-container block">
-                        <img class="vc-block" src="/assets/images/tech-grey/mind.svg" alt="">
+                        <img class="vc-block" [src]="deployURL + '/assets/images/tech-grey/mind.svg'" alt="">
                     </div>
                     <div class="col-2-ls col-2-ms col-2-ss col-6-xs vc-container block">
-                        <img class="vc-block" src="/assets/images/tech-grey/rest-api.svg" alt="">
+                        <img class="vc-block" [src]="deployURL + '/assets/images/tech-grey/rest-api.svg'" alt="">
                     </div>
                     <div class="col-2-ls col-2-ms col-2-ss col-6-xs vc-container block">
-                        <img class="vc-block" src="/assets/images/tech-grey/silex.svg" alt="">
+                        <img class="vc-block" [src]="deployURL + '/assets/images/tech-grey/silex.svg'" alt="">
                     </div>
                     <div class="col-2-ls col-2-ms col-2-ss col-6-xs vc-container block">
-                        <img class="vc-block" src="/assets/images/tech-grey/bower.svg" alt="">
+                        <img class="vc-block" [src]="deployURL + '/assets/images/tech-grey/bower.svg'" alt="">
                     </div>
                     <div class="col-2-ls col-2-ms col-2-ss col-6-xs vc-container block">
-                        <img class="vc-block" src="/assets/images/tech-grey/grunt.svg" alt="">
+                        <img class="vc-block" [src]="deployURL + '/assets/images/tech-grey/grunt.svg'" alt="">
                     </div>
                     <div class="col-2-ls col-2-ms col-2-ss col-6-xs vc-container block">
-                        <img class="vc-block" src="/assets/images/tech-grey/requ.svg" alt="">
+                        <img class="vc-block" [src]="deployURL + '/assets/images/tech-grey/requ.svg'" alt="">
                     </div>
                     <div class="col-2-ls col-2-ms col-2-ss col-6-xs vc-container block">
-                        <img class="vc-block" src="/assets/images/tech-grey/php.svg" alt="">
+                        <img class="vc-block" [src]="deployURL + '/assets/images/tech-grey/php.svg'" alt="">
                     </div>
                     <div class="col-2-ls col-2-ms col-2-ss col-6-xs vc-container block">
-                        <img class="vc-block" src="/assets/images/tech-grey/mysql.svg" alt="">
+                        <img class="vc-block" [src]="deployURL + '/assets/images/tech-grey/mysql.svg'" alt="">
                     </div>
                 </div>
             </div>
@@ -96,13 +96,13 @@
         <hr>
         <div class="row">
             <div class="col-4-ls col-4-ms mobileHide">
-                <a [routerLink]="['/cases', 'ernstandyoung']"><img src="/assets/images/work-1.jpg" alt=""></a>
+                <a [routerLink]="['/cases', 'ernstandyoung']"><img [src]="deployURL + '/assets/images/work-1.jpg'" alt=""></a>
             </div>
             <div class="col-4-ls col-4-ms col-6-ss col-12-xs">
-                <a [routerLink]="['/cases', 'quepro']"><img src="/assets/images/work-2.jpg" alt=""></a>
+                <a [routerLink]="['/cases', 'quepro']"><img [src]="deployURL + '/assets/images/work-2.jpg'" alt=""></a>
             </div>
             <div class="col-4-ls col-4-ms col-6-ss col-12-xs">
-                <a [routerLink]="['/cases', 'allsquare']"><img src="/assets/images/work-3.jpg" alt=""></a>
+                <a [routerLink]="['/cases', 'allsquare']"><img [src]="deployURL + '/assets/images/work-3.jpg'" alt=""></a>
             </div>
         </div>
     </div>
