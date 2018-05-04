@@ -1,0 +1,46 @@
+<section class="breadcrumbs">
+    <div class="wrapper">
+        <ul>
+            <li><a [routerLink]="['/']">Home</a></li>
+            <li class="active"><a href="#">Contacts</a></li>
+        </ul>
+    </div>
+</section>
+<section class="contact">
+    <div class="wrapper">
+        <div class="row">
+            <section class="col-6-ls col-6-ms col-6-ss contactForm">
+                <h1 class="subtitle">Contact us</h1>
+                <form name="contactForm" class="contact-form" id="contactForm" action="" method="post">
+                    <div class="formblock">
+                        <label class="formblock-label" for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="John Smith">
+                    </div>
+                    <div class="formblock">
+                        <label class="formblock-label" for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="johnsmith@mail.com">
+                    </div>
+                    <div class="formblock">
+                        <label class="formblock-label" for="phone">Phone</label>
+                        <input type="text" name="phone" id="phone" placeholder="+X XXX NNNN NNN">
+                    </div>
+                    <div class="formblock">
+                        <label class="formblock-label"  for="more-info">Tell us more</label>
+                        <textarea name="more" id="more-info" placeholder="A few words about your project"></textarea>
+                    </div>
+                    <div class="formblock">
+                        <input type="submit" id="btn-submit" value="Send">
+                    </div>
+                </form>
+            </section>
+            <section class="col-6-ls col-6-ms col-6-ss info">
+                <h3>Email Us</h3>
+                <p>Don't feel like using web forms today? Simply email us! We'll get in touch with you within one business day.</p>
+                <h3>How to Start</h3>
+                <p>If you have a need for professionals to handle your software development needs - please do contact us. We will assign the relevant R&amp;D experts to process your request depending on your business type, required services and your preferred technologies.</p>
+                <h3>Privacy</h3>
+                <p>As a client-oriented company we respect your privacy, and will not share your information with any 3rd party without your permis-sion. Our multi-level corporate security policies and procedures ensure prevention from loss, misuse or unauthorized distribution of any business-sensitive information you share with us.</p>
+            </section>
+        </div>
+    </div>
+</section>
