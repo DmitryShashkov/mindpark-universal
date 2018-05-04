@@ -1,0 +1,212 @@
+<section class="breadcrumbs">
+    <div class="wrapper">
+        <ul>
+            <li><a [routerLink]="['/']">Home</a></li>
+            <li class="active"><a href="#">Our Services</a></li>
+        </ul>
+    </div>
+</section>
+
+<section class="pageHeader servicesHeader">
+    <div class="wrapper vc-container">
+        <div class="block vc-block">
+            <h1>Our services</h1>
+            <p>We are a software development outsourcing and outstaffing company</p>
+        </div>
+    </div>
+</section>
+
+<section class="brief">
+    <div class="wrapper">
+        <img src="/assets/images/icon/s_setting.svg" alt="">
+        <p>We are a software development company which offers outsourcing and outstaffing services. Our head office is in Kiev, Ukraine but we also have a representative office in Wilmington, Delaware in America. The main goal we set is to provide customers with the high-quality products in Ukraine and all over the world.</p>
+    </div>
+</section>
+
+<section class="weOffer">
+    <div class="wrapper">
+        <h2>What we offer</h2>
+        <hr>
+        <div class="row">
+            <section class="col-4-ls col-4-ms col-6-ss col-12-xs block">
+                <h3>Software Prototyping</h3>
+                <p>An incredibly useful tool for starting the development of new products.</p>
+                <a [routerLink]="['/services', 'softproto']" class="more">Read more</a>
+            </section>
+            <section class="col-4-ls col-4-ms col-6-ss col-12-xs block">
+                <h3>Dedicated Development Centers</h3>
+                <p>Our high end staffing solutions enhances the performance of your offsite dev centers.</p>
+                <a [routerLink]="['/services', 'dedicateddev']" class="more">Read more</a>
+            </section>
+            <section class="col-4-ls col-4-ms col-6-ss col-12-xs block">
+                <h3>Software Product Development</h3>
+                <p>Software product development is our core service category.</p>
+                <a [routerLink]="['/services', 'softdev']" class="more">Read more</a>
+            </section>
+            <section class="col-4-ls col-4-ms col-6-ss col-12-xs block">
+                <h3>Software QA and Testing</h3>
+                <p>Quality assurance is the only way to ensure that your software product is working flawlessly.</p>
+                <a [routerLink]="['/services', 'softqa']" class="more">Read more</a>
+            </section>
+            <section class="col-4-ls col-4-ms col-6-ss col-12-xs block">
+                <h3>Software Development Audit</h3>
+                <p>To help you identify the core project objectives and optimize the project performance.</p>
+                <a [routerLink]="['/services', 'devaudit']" class="more">Read more</a>
+            </section>
+            <section class="col-4-ls col-4-ms col-6-ss col-12-xs block">
+                <h3>Maintenance and Support</h3>
+                <p>Maintaining and supporting your software is a full-time job.</p>
+                <a [routerLink]="['/services', 'maintenance']" class="more">Read more</a>
+            </section>
+        </div>
+    </div>
+</section>
+<section class="stuffTypes">
+    <div class="wrapper">
+        <h2>Types of products we deliver</h2>
+        <hr>
+        <div class="row">
+            <section class="col-4-ls col-4-ms col-6-ss col-12-xs block">
+                <h3>Desktop applications</h3>
+                <p>A native desktop software is in most cases designed for enterprise solutions and other local or server-based solutions in order to increase the UI/UX of the workflow thus improving the whole solution.</p>
+            </section>
+            <section class="col-4-ls col-4-ms col-6-ss col-12-xs block">
+                <h3>Web applications</h3>
+                <p>Web application can have various implementations. The list starts with simple websites that include a certain amount of functionality and ends with complex multifunctional apps for various business needs.</p>
+            </section>
+            <section class="col-4-ls col-4-ms col-6-ss col-12-xs block">
+                <h3>Mobile applications</h3>
+                <p>Mobile applications are becoming increasingly complex and capable of delivering a wide range of functionality - all on the user's smartphone. A mobile app is a great extenxion for almost any web based business.</p>
+            </section>
+            <section class="col-4-ls col-4-ms col-6-ss col-12-xs block">
+                <h3>SaaS development</h3>
+                <p>The Software as a Service model proved to be an effective solution for many businesees. SaaS is typically accessed by users using a thin client via a web browser or via native desktop or mobile apps.</p>
+            </section>
+            <section class="col-4-ls col-4-ms col-6-ss col-12-xs block">
+                <h3>PaaS development</h3>
+                <p>Platform as a service  is a category of cloud computing services that provides a platform allowing customers to develop, run, and manage Web applications without of building and maintaining the infrastructure typically associated with developing and launching an app.</p>
+            </section>
+            <section class="col-4-ls col-4-ms col-6-ss col-12-xs block">
+                <h3>Backend applications</h3>
+                <p>The back-end applications are a part of the application that is never visible to the user. There is a high demand for backend apps in most cases due to the overall complexity of backend systems.</p>
+            </section>
+        </div>
+    </div>
+</section>
+<section class="contactUs">
+    <div class="wrapper">
+        <div class="row">
+            <div class="col-8-ls col-8-ms">
+                <p>Ready to start? Let's do it!</p>
+            </div>
+            <div class="col-4-ls col-4-ms">
+                <a [routerLink]="['/contacts']" id="contact" class="js-open-popup-contact" >Contact Us</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="techlist white">
+    <div class="wrapper">
+        <h2>Technologies list</h2>
+        <hr>
+        <div class="row">
+            <div class="col-2-ls col-2-ms col-3-ss col-6-xs">
+                <section class="block">
+                    <a [routerLink]="['/technologies', 'ruby']">
+                        <div class="vc-container"><img class="vc-block" src="/assets/images/tech-grey/ruby.svg" alt=""></div>
+                        <p>Ruby</p>
+                    </a>
+                </section>
+            </div>
+            <div class="col-2-ls col-2-ms col-3-ss col-6-xs">
+                <section class="block">
+                    <a [routerLink]="['/technologies', 'java']">
+                        <div class="vc-container"><img class="vc-block" src="/assets/images/tech-grey/java.svg" alt=""></div>
+                        <p>Java</p>
+                    </a>
+                </section>
+            </div>
+            <div class="col-2-ls col-2-ms col-3-ss col-6-xs">
+                <section class="block">
+                    <a [routerLink]="['/technologies', 'scala']">
+                        <div class="vc-container"><img class="vc-block" src="/assets/images/tech-grey/scala.svg" alt="">
+                        </div>
+                        <p>Scala</p>
+                    </a>
+                </section>
+            </div>
+            <div class="col-2-ls col-2-ms col-3-ss col-6-xs">
+                <section class="block">
+                    <a [routerLink]="['/technologies', 'c']">
+                        <div class="vc-container"><img class="vc-block" src="/assets/images/tech-grey/sharp.svg" alt=""></div>
+                        <p>C/C++</p>
+                    </a>
+                </section>
+            </div>
+            <div class="col-2-ls col-2-ms col-3-ss col-6-xs">
+                <section class="block">
+                    <a [routerLink]="['/technologies', 'htmlcss']">
+                        <div class="vc-container"><img class="vc-block" src="/assets/images/tech-grey/html5.svg" alt=""></div>
+                        <p>HTML5</p>
+                    </a>
+                </section>
+            </div>
+            <div class="col-2-ls col-2-ms col-3-ss col-6-xs">
+                <section class="block">
+                    <a [routerLink]="['/technologies', 'python']">
+                        <div class="vc-container"><img class="vc-block" src="/assets/images/tech-grey/pyth.svg" alt=""></div>
+                        <p>Python</p>
+                    </a>
+                </section>
+            </div>
+            <div class="col-2-ls col-2-ms col-3-ss col-6-xs">
+                <section class="block">
+                    <a [routerLink]="['/technologies', 'php']">
+                        <div class="vc-container"><img class="vc-block" src="/assets/images/tech-grey/php.svg" alt=""></div>
+                        <p>PHP</p>
+                    </a>
+                </section>
+            </div>
+            <div class="col-2-ls col-2-ms col-3-ss col-6-xs">
+                <section class="block">
+                    <a [routerLink]="['/technologies', 'android']">
+                        <div class="vc-container"><img class="vc-block" src="/assets/images/tech-grey/android.svg" alt=""></div>
+                        <p>Android</p>
+                    </a>
+                </section>
+            </div>
+            <div class="col-2-ls col-2-ms col-3-ss col-6-xs">
+                <section class="block">
+                    <a [routerLink]="['/technologies', 'osx']">
+                        <div class="vc-container"><img class="vc-block" src="/assets/images/tech-grey/apple.svg" alt=""></div>
+                        <p>OS X</p>
+                    </a>
+                </section>
+            </div>
+            <div class="col-2-ls col-2-ms col-3-ss col-6-xs">
+                <section class="block">
+                    <a [routerLink]="['/technologies', 'ios']">
+                        <div class="vc-container"><img class="vc-block" src="/assets/images/tech-grey/ios.svg" alt=""></div>
+                        <p>iOS</p>
+                    </a>
+                </section>
+            </div>
+            <div class="col-2-ls col-2-ms col-3-ss col-6-xs">
+                <section class="block">
+                    <a [routerLink]="['/technologies', 'javascript']">
+                        <div class="vc-container"><img class="vc-block" src="/assets/images/tech-grey/js.svg" alt=""></div>
+                        <p>Javascript</p>
+                    </a>
+                </section>
+            </div>
+            <div class="col-2-ls col-2-ms col-3-ss col-6-xs">
+                <section class="block">
+                    <a [routerLink]="['/technologies', 'windows']">
+                        <div class="vc-container"><img class="vc-block" src="/assets/images/tech-grey/win.svg" alt=""></div>
+                        <p>Windows</p>
+                    </a>
+                </section>
+            </div>
+        </div>
+    </div>
+</section>

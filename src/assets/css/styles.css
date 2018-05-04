@@ -920,11 +920,11 @@ header nav ul li:nth-child(-n+4) :after {
     color: #c6cad2;
 }
 
-header nav ul li.active a {
+header nav ul li a.active {
     color: #2dbca6;
 }
 
-header nav ul li.active a:hover {
+header nav ul li a.active:hover {
     border-bottom: 1px solid #9be7db;
 }
 
