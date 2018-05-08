@@ -8,6 +8,7 @@ import {HomeComponent} from "./home/home.component";
 import {FooterComponent} from "./layouts/footer/footer.component";
 import {AboutUsComponent} from "./about-us/about-us.component";
 import {ContactsComponent} from "./contacts/contacts.component";
+import {BlogComponent} from "./blog/blog.component";
 
 @NgModule({
     declarations: [
@@ -16,7 +17,8 @@ import {ContactsComponent} from "./contacts/contacts.component";
         FooterComponent,
         HomeComponent,
         AboutUsComponent,
-        ContactsComponent
+        ContactsComponent,
+        BlogComponent
     ],
     imports: [
         BrowserModule.withServerTransition({appId: 'my-app'}),
@@ -26,7 +28,8 @@ import {ContactsComponent} from "./contacts/contacts.component";
             { path: 'services', loadChildren: './services/services.module#ServicesModule' },
             { path: 'technologies', loadChildren: './technologies/technologies.module#TechnologiesModule' },
             { path: 'cases', loadChildren: './cases/cases.module#CasesModule' },
-            { path: 'contacts', component: ContactsComponent }
+            { path: 'contacts', component: ContactsComponent },
+            { path: 'blog', component: BlogComponent }
         ]),
         // TransferHttpCacheModule,
     ],

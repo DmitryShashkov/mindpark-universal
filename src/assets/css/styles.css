@@ -906,11 +906,11 @@ header nav ul li a:hover {
     border-bottom: 1px solid #898989;
 }
 
-header nav ul li:nth-child(-n+4) {
+header nav ul li:nth-child(-n+5) {
     margin-right: 33px;
 }
 
-header nav ul li:nth-child(-n+4) :after {
+header nav ul li:nth-child(-n+5) :after {
     content: '/';
     position: absolute;
     top: -6px;
