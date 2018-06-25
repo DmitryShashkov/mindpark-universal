@@ -9,6 +9,7 @@ import {FooterComponent} from "./layouts/footer/footer.component";
 import {AboutUsComponent} from "./about-us/about-us.component";
 import {ContactsComponent} from "./contacts/contacts.component";
 import {BlogComponent} from "./blog/blog.component";
+import {PrankAppsComponent} from "./prank-apps/prank-apps.component";
 
 @NgModule({
     declarations: [
@@ -18,7 +19,8 @@ import {BlogComponent} from "./blog/blog.component";
         HomeComponent,
         AboutUsComponent,
         ContactsComponent,
-        BlogComponent
+        BlogComponent,
+        PrankAppsComponent
     ],
     imports: [
         BrowserModule.withServerTransition({appId: 'my-app'}),
@@ -29,7 +31,8 @@ import {BlogComponent} from "./blog/blog.component";
             { path: 'technologies', loadChildren: './technologies/technologies.module#TechnologiesModule' },
             { path: 'cases', loadChildren: './cases/cases.module#CasesModule' },
             { path: 'contacts', component: ContactsComponent },
-            { path: 'blog', component: BlogComponent }
+            { path: 'blog', component: BlogComponent },
+            { path: 'prank-apps', component: PrankAppsComponent }
         ]),
         // TransferHttpCacheModule,
     ],
