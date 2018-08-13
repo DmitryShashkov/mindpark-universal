@@ -10,6 +10,7 @@ import {AboutUsComponent} from "./about-us/about-us.component";
 import {ContactsComponent} from "./contacts/contacts.component";
 import {BlogComponent} from "./blog/blog.component";
 import {PrankAppsComponent} from "./prank-apps/prank-apps.component";
+import {BrexitComponent} from "./brexit/brexit.component";
 
 @NgModule({
     declarations: [
@@ -20,7 +21,8 @@ import {PrankAppsComponent} from "./prank-apps/prank-apps.component";
         AboutUsComponent,
         ContactsComponent,
         BlogComponent,
-        PrankAppsComponent
+        PrankAppsComponent,
+        BrexitComponent
     ],
     imports: [
         BrowserModule.withServerTransition({appId: 'my-app'}),
@@ -32,7 +34,8 @@ import {PrankAppsComponent} from "./prank-apps/prank-apps.component";
             { path: 'cases', loadChildren: './cases/cases.module#CasesModule' },
             { path: 'contacts', component: ContactsComponent },
             { path: 'blog', component: BlogComponent },
-            { path: 'prank-apps', component: PrankAppsComponent }
+            { path: 'prank-apps', component: PrankAppsComponent },
+            { path: 'brexit', component: BrexitComponent }
         ]),
         // TransferHttpCacheModule,
     ],
