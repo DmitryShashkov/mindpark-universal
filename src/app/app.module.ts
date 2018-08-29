@@ -11,6 +11,8 @@ import {ContactsComponent} from "./contacts/contacts.component";
 import {BlogComponent} from "./blog/blog.component";
 import {PrankAppsComponent} from "./prank-apps/prank-apps.component";
 import {BrexitComponent} from "./brexit/brexit.component";
+import {TransferHttpCacheModule} from "@nguniversal/common";
+import {WRecieInTEnhInetsComponent} from "./w-recie-in-t-enh-inets/w-recie-in-t-enh-inets.component";
 
 @NgModule({
     declarations: [
@@ -22,7 +24,8 @@ import {BrexitComponent} from "./brexit/brexit.component";
         ContactsComponent,
         BlogComponent,
         PrankAppsComponent,
-        BrexitComponent
+        BrexitComponent,
+        WRecieInTEnhInetsComponent
     ],
     imports: [
         BrowserModule.withServerTransition({appId: 'my-app'}),
@@ -35,9 +38,10 @@ import {BrexitComponent} from "./brexit/brexit.component";
             { path: 'contacts', component: ContactsComponent },
             { path: 'blog', component: BlogComponent },
             { path: 'prank-apps', component: PrankAppsComponent },
-            { path: 'brexit', component: BrexitComponent }
+            { path: 'brexit', component: BrexitComponent },
+            { path: 'w-recie-in-t-enh-inets', component: WRecieInTEnhInetsComponent }
         ]),
-        // TransferHttpCacheModule,
+        TransferHttpCacheModule,
     ],
     providers: [],
     bootstrap: [AppComponent]
