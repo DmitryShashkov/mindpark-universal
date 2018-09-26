@@ -3062,3 +3062,20 @@ textarea.invalid {
     border-color: #d0021b !important;
     transition: 0.5s border-color ease-in-out;
 }
+
+/* --------------------------------------------------------------- */
+
+.col-2_4-ls.col-2_4-ms.col-3-ss.client.col-6-xs.vc-container,
+.techlist .block .vc-container,
+.case-studies a {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0 5px 30px;
+    width: 218px;
+}
+
+.case-studies a {
+    height: 250px;
+    display: block;
+}

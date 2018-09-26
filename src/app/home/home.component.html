@@ -36,35 +36,35 @@
         <h2>Our Clients</h2>
         <hr>
         <div class="row">
-            <div class="col-2_4-ls col-2_4-ms col-3-ss client col-6-xs vc-container">
-                <img class="vc-block" [src]="deployURL + '/assets/images/logo/novytec.png'" alt="Novytec">
+            <div class="col-2_4-ls col-2_4-ms col-3-ss client col-6-xs vc-container"
+                [style.background-image]="'url(/assets/images/logo/novytec.png)'">
             </div>
-            <div class="col-2_4-ls col-2_4-ms col-3-ss client col-6-xs vc-container">
-                <img class="vc-block" [src]="deployURL + '/assets/images/logo/jeapie.png'" alt="Jeapie">
+            <div class="col-2_4-ls col-2_4-ms col-3-ss client col-6-xs vc-container"
+                [style.background-image]="'url(/assets/images/logo/jeapie.png)'">
             </div>
-            <div class="col-2_4-ls col-2_4-ms col-3-ss client col-6-xs vc-container">
-                <img class="vc-block" [src]="deployURL + '/assets/images/logo/steinbeis.png'" alt="Steinbeis">
+            <div class="col-2_4-ls col-2_4-ms col-3-ss client col-6-xs vc-container"
+                [style.background-image]="'url(/assets/images/logo/steinbeis.png)'">
             </div>
-            <div class="col-2_4-ls col-2_4-ms col-3-ss client col-6-xs vc-container">
-                <img class="vc-block" [src]="deployURL + '/assets/images/logo/skimdoc.png'" alt="SkimDoc">
+            <div class="col-2_4-ls col-2_4-ms col-3-ss client col-6-xs vc-container"
+                [style.background-image]="'url(/assets/images/logo/skimdoc.png)'">
             </div>
-            <div class="col-2_4-ls col-2_4-ms col-3-ss client col-6-xs vc-container">
-                <img class="vc-block" [src]="deployURL + '/assets/images/logo/shopbeam.png'" alt="Shopbeam">
+            <div class="col-2_4-ls col-2_4-ms col-3-ss client col-6-xs vc-container"
+                [style.background-image]="'url(/assets/images/logo/shopbeam.png)'">
             </div>
-            <div class="col-2_4-ls col-2_4-ms col-3-ss client col-6-xs vc-container">
-                <img class="vc-block" [src]="deployURL + '/assets/images/logo/digital-bee.png'" alt="Digital Bee">
+            <div class="col-2_4-ls col-2_4-ms col-3-ss client col-6-xs vc-container"
+                [style.background-image]="'url(/assets/images/logo/digital-bee.png)'">
             </div>
-            <div class="col-2_4-ls col-2_4-ms col-3-ss client col-6-xs vc-container">
-                <img class="vc-block" [src]="deployURL + '/assets/images/logo/ey-building-a-better-working-world.png'" alt="EY">
+            <div class="col-2_4-ls col-2_4-ms col-3-ss client col-6-xs vc-container"
+                [style.background-image]="'url(/assets/images/logo/ey-building-a-better-working-world.png)'">
             </div>
-            <div class="col-2_4-ls col-2_4-ms col-3-ss client col-6-xs vc-container">
-                <img class="vc-block" [src]="deployURL + '/assets/images/logo/nuwbii.png'" alt="Nuwbii">
+            <div class="col-2_4-ls col-2_4-ms col-3-ss client col-6-xs vc-container"
+                [style.background-image]="'url(/assets/images/logo/nuwbii.png)'">
             </div>
-            <div class="col-2_4-ls col-2_4-ms col-3-ss client col-6-xs vc-container">
-                <img class="vc-block" [src]="deployURL + '/assets/images/logo/digital-future.png'" alt="Digital Future">
+            <div class="col-2_4-ls col-2_4-ms col-3-ss client col-6-xs vc-container"
+                [style.background-image]="'url(/assets/images/logo/digital-future.png)'">
             </div>
-            <div class="col-2_4-ls col-2_4-ms col-3-ss client col-6-xs vc-container">
-                <img class="vc-block" [src]="deployURL + '/assets/images/logo/nravo.png'" alt="Nravo">
+            <div class="col-2_4-ls col-2_4-ms col-3-ss client col-6-xs vc-container"
+                [style.background-image]="'url(/assets/images/logo/nravo.png)'">
             </div>
         </div>
     </div>
@@ -111,7 +111,7 @@
             <div class="col-2-ls col-2-ms col-3-ss col-6-xs">
                 <section class="block">
                     <a [routerLink]="['/technologies', 'ruby']">
-                        <div class="vc-container"><img class="vc-block" [src]="deployURL + '/assets/images/tech/ruby.png'" alt="Ruby"></div>
+                        <div class="vc-container" [style.background-image]="'url(/assets/images/tech/ruby.png)'"></div>
                         <p>Ruby</p>
                     </a>
                 </section>
@@ -119,7 +119,7 @@
             <div class="col-2-ls col-2-ms col-3-ss col-6-xs">
                 <section class="block">
                     <a [routerLink]="['/technologies', 'java']">
-                        <div class="vc-container"><img class="vc-block" [src]="deployURL + '/assets/images/tech/java.png'" alt="Java"></div>
+                        <div class="vc-container" [style.background-image]="'url(/assets/images/tech/java.png)'"></div>
                         <p>Java</p>
                     </a>
                 </section>
@@ -127,8 +127,7 @@
             <div class="col-2-ls col-2-ms col-3-ss col-6-xs">
                 <section class="block">
                     <a [routerLink]="['/technologies', 'scala']">
-                        <div class="vc-container"><img class="vc-block" [src]="deployURL + '/assets/images/tech/scala.png'" alt="Scala">
-                        </div>
+                        <div class="vc-container" [style.background-image]="'url(/assets/images/tech/scala.png)'"></div>
                         <p>Scala</p>
                     </a>
                 </section>
@@ -136,7 +135,7 @@
             <div class="col-2-ls col-2-ms col-3-ss col-6-xs">
                 <section class="block">
                     <a [routerLink]="['/technologies', 'c']">
-                        <div class="vc-container"><img class="vc-block" [src]="deployURL + '/assets/images/tech/sharp.png'" alt="Sharp"></div>
+                        <div class="vc-container" [style.background-image]="'url(/assets/images/tech/sharp.png)'"></div>
                         <p>C/C++</p>
                     </a>
                 </section>
@@ -144,7 +143,7 @@
             <div class="col-2-ls col-2-ms col-3-ss col-6-xs">
                 <section class="block">
                     <a [routerLink]="['/technologies', 'htmlcss']">
-                        <div class="vc-container"><img class="vc-block" [src]="deployURL + '/assets/images/tech/html5.png'" alt="HTML5"></div>
+                        <div class="vc-container" [style.background-image]="'url(/assets/images/tech/html5.png)'"></div>
                         <p>HTML5</p>
                     </a>
                 </section>
@@ -152,7 +151,7 @@
             <div class="col-2-ls col-2-ms col-3-ss col-6-xs">
                 <section class="block">
                     <a [routerLink]="['/technologies', 'python']">
-                        <div class="vc-container"><img class="vc-block" [src]="deployURL + '/assets/images/tech/python.png'" alt="Python"></div>
+                        <div class="vc-container" [style.background-image]="'url(/assets/images/tech/python.png)'"></div>
                         <p>Python</p>
                     </a>
                 </section>
@@ -160,7 +159,7 @@
             <div class="col-2-ls col-2-ms col-3-ss col-6-xs">
                 <section class="block">
                     <a [routerLink]="['/technologies', 'php']">
-                        <div class="vc-container"><img class="vc-block" [src]="deployURL + '/assets/images/tech/php.png'" alt="PHP"></div>
+                        <div class="vc-container" [style.background-image]="'url(/assets/images/tech/php.png)'"></div>
                         <p>PHP</p>
                     </a>
                 </section>
@@ -168,7 +167,7 @@
             <div class="col-2-ls col-2-ms col-3-ss col-6-xs">
                 <section class="block">
                     <a [routerLink]="['/technologies', 'android']">
-                        <div class="vc-container"><img class="vc-block" [src]="deployURL + '/assets/images/tech/android.png'" alt="Android"></div>
+                        <div class="vc-container" [style.background-image]="'url(/assets/images/tech/android.png)'"></div>
                         <p>Android</p>
                     </a>
                 </section>
@@ -176,7 +175,7 @@
             <div class="col-2-ls col-2-ms col-3-ss col-6-xs">
                 <section class="block">
                     <a [routerLink]="['/technologies', 'osx']">
-                        <div class="vc-container"><img class="vc-block" [src]="deployURL + '/assets/images/tech/apple.png'" alt="Apple"></div>
+                        <div class="vc-container" [style.background-image]="'url(/assets/images/tech/apple.png)'"></div>
                         <p>OS X</p>
                     </a>
                 </section>
@@ -184,7 +183,7 @@
             <div class="col-2-ls col-2-ms col-3-ss col-6-xs">
                 <section class="block">
                     <a [routerLink]="['/technologies', 'ios']">
-                        <div class="vc-container"><img class="vc-block" [src]="deployURL + '/assets/images/tech/ios.png'" alt="iOS"></div>
+                        <div class="vc-container" [style.background-image]="'url(/assets/images/tech/ios.png)'"></div>
                         <p>iOS</p>
                     </a>
                 </section>
@@ -192,7 +191,7 @@
             <div class="col-2-ls col-2-ms col-3-ss col-6-xs">
                 <section class="block">
                     <a [routerLink]="['/technologies', 'javascript']">
-                        <div class="vc-container"><img class="vc-block" [src]="deployURL + '/assets/images/tech/js.png'" alt="JavaScript"></div>
+                        <div class="vc-container" [style.background-image]="'url(/assets/images/tech/js.png)'"></div>
                         <p>Javascript</p>
                     </a>
                 </section>
@@ -200,7 +199,7 @@
             <div class="col-2-ls col-2-ms col-3-ss col-6-xs">
                 <section class="block">
                     <a [routerLink]="['/technologies', 'windows']">
-                        <div class="vc-container"><img class="vc-block" [src]="deployURL + '/assets/images/tech/win.png'" alt="Windows"></div>
+                        <div class="vc-container" [style.background-image]="'url(/assets/images/tech/win.png)'"></div>
                         <p>Windows</p>
                     </a>
                 </section>
@@ -209,24 +208,24 @@
     </div>
 </section>
 
-<section class="case">
+<section class="case case-studies">
     <div class="wrapper">
         <h2>More Case Studies</h2>
         <hr>
         <div class="row">
             <div class="col-4-ls col-4-ms mobileHide">
-                <a [routerLink]="['/cases', 'ernstandyoung']">
-                    <img [src]="deployURL + '/assets/images/work-ernst-and-young.jpg'" alt="Ernst and young">
+                <a [routerLink]="['/cases', 'ernstandyoung']"
+                    [style.background-image]="'url(/assets/images/work-ernst-and-young.jpg)'">
                 </a>
             </div>
             <div class="col-4-ls col-4-ms col-6-ss col-12-xs">
-                <a [routerLink]="['/cases', 'quepro']">
-                    <img [src]="deployURL + '/assets/images/work-que-pro.jpg'" alt="Que Pro">
+                <a [routerLink]="['/cases', 'quepro']"
+                    [style.background-image]="'url(/assets/images/work-que-pro.jpg)'">
                 </a>
             </div>
             <div class="col-4-ls col-4-ms col-6-ss col-12-xs">
-                <a [routerLink]="['/cases', 'allsquare']">
-                    <img [src]="deployURL + '/assets/images/work-all-square.jpg'" alt="All Square">
+                <a [routerLink]="['/cases', 'allsquare']"
+                    [style.background-image]="'url(/assets/images/work-all-square.jpg)'">
                 </a>
             </div>
         </div>
