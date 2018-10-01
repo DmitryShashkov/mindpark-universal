@@ -11,7 +11,7 @@ import 'reflect-metadata';
 const { AppServerModuleNgFactory, LAZY_MODULE_MAP } = require('./dist/server/main.bundle');
 
 (new class {
-    private readonly PORT: number = process.env.PORT || 4224;
+    private readonly PORT: number = parseInt(process.env.PORT) || 4224;
 
     private readonly DIST_FOLDER: string = join(process.cwd(), 'dist');
     private readonly VIEW_FOLDER: string = join(this.DIST_FOLDER, 'browser');
@@ -59,9 +59,10 @@ const { AppServerModuleNgFactory, LAZY_MODULE_MAP } = require('./dist/server/mai
     }
 
     private handleRequests (req: Request, res: Response) : void {
-        const view: string = 'index';
-        const options: Object = { req };
-        return res.render(view, options);
+        // const view: string = 'index';
+        // const options: Object = { req };
+        // return res.render(view, options);
+        return res.redirect(301, 'https://www.cleveroad.com');
     }
 
     private getCredentials (authHeader: string) : { username: string, password: string } {
